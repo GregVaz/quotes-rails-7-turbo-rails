@@ -1,10 +1,13 @@
 # test/fixtures/quotes.yml
 
 first:
+  company: ato
   name: First quote
 
 second:
+  company: ato
   name: Second quote
 
 third:
+  company: eto
   name: Third quote

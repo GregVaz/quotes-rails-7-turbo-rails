@@ -48,6 +48,8 @@ gem "bootsnap", require: false
 gem 'haml', '~> 5.2', '>= 5.2.2'
 gem "simple_form", "~> 5.1.0"
 
+gem 'devise', '~> 4.8', '>= 4.8.1'
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
