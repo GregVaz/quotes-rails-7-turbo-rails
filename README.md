@@ -78,5 +78,31 @@ At the time writing this chapter, the Devise gem does not support Turbo Drive. A
 
 **To disable Turbo Drive on a link or a form, we need to add the data-turbo="false" data attribute on it.**
 
+## What are Turbo Frames?
+
+Turbo Frames are independent pieces of a web page that can be appended, prepended, replaced, or removed without a complete page refresh and writing a single line of JavaScript!
+
 For more information check the resource: [Turbo Drive](https://www.hotrails.dev/turbo-rails/turbo-drive)
+
+### Turbo Frames rules
+
+Rule 1 
+
+> When clicking on a link within a Turbo Frame, if there is a frame with the same id on the target page, Turbo will replace the content of the Turbo Frame of the source page with the content of the Turbo Frame of the target page.
+
+Rule 2
+
+> When clicking on a link within a Turbo Frame, if there is no Turbo Frame with the same id on the target page, Turbo will remove the content of the Turbo Frame from the source page and log an error.
+
+To check the Turbo Frames rules with examples, check the resource: [Turbo Frames cheat sheet](https://www.hotrails.dev/turbo-rails/turbo-frames-and-turbo-streams#:~:text=Turbo%20Frames%20cheat%20sheet)
+
+Rule 3
+
+> A link can target another frame than the one it is directly nested in thanks to the data-turbo-frame data attribute.
+
+
+
+
+
+For more information check the resource: [Turbo Frames](https://www.hotrails.dev/turbo-rails/turbo-frames-and-turbo-streams)
 
