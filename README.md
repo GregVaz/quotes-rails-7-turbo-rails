@@ -19,6 +19,7 @@
 
 * How to run the test suite
   * Run `rails test:system`
+  * Run `rails test:all`
 
 # Rails 7 Notes
 
