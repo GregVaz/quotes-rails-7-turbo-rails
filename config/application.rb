@@ -2,6 +2,8 @@ require_relative "boot"
 
 require "rails/all"
 
+INTEGRATION_DOMAIN="18.208.155.20"
+
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
