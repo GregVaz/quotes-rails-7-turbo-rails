@@ -6,6 +6,11 @@ Rails.application.configure do
   # Code is not reloaded between requests.
   config.cache_classes = true
 
+  # Requires an encryption key in `ENV["RAILS_MASTER_KEY"]` or
+  config.require_master_key = true
+  # `config/secrets.yml.key`.
+  config.read_encrypted_secrets = true
+
   # Eager load code on boot. This eager loads most of Rails and
   # your application in memory, allowing both threaded web servers
   # and those relying on copy on write to perform better.
