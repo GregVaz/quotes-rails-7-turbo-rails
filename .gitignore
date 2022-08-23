@@ -10,6 +10,8 @@ config/secrets.yml
 config/authorize_net.yml
 config/*.production.yml
 config/*.production.yml
+config/*.staging.yml
+config/*.staging.yml
 
 # Ignore bundler config.
 /.bundle
@@ -36,6 +38,7 @@ config/*.production.yml
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+/config/master.*.key
 
 /app/assets/builds/*
 !/app/assets/builds/.keep
